@@ -38,7 +38,7 @@ public class SelectionSort {
 
         long startTime = System.nanoTime();
         for (int i = 0; i < n; i++) {
-            int min = 1;
+            int min = i;
             for (int j = i + 1; j < n; j++) {
                 if (A[j] < A[min]) {
                     min = j;
